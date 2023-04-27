@@ -8,14 +8,23 @@
     display: block;
     max-width: 100%;
     height: auto;
-    }
-
-.image-container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
     filter: grayscale(50%);
     border-radius: 10px;
+    }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+    
+.image-container:hover .overlay {
+    opacity: 1;
     }
     
 .image-text {
@@ -100,14 +109,15 @@ a:hover {
     /*--End Navbar--*/
 
     /*--Column--*/
-row {
+.row {
     display: flex;
     flex-wrap: wrap;
     }
 
 .column {
-    flex: 50%;
+    width: 50%;
     padding: 10px;
+    box-sizing: border-box;
     }
 
 .left-column {
@@ -124,3 +134,14 @@ row {
     }
     }   
     /*--Column--*/
+
+    /*--Paragraph--*/
+.paragraph {
+        color: #333;
+        font-size: 16px;
+        transition: color 0.3s ease-in-out;
+    }
+
+.paragraph:hover {
+        color: #ff0000;
+    }
