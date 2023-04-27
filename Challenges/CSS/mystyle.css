@@ -1,6 +1,7 @@
 .image-container {
     display: flex;
     justify-content: center;
+    position: relative;
     }
 
 .image-container img {
@@ -16,12 +17,25 @@
     filter: grayscale(50%);
     border-radius: 10px;
     }
+    
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    }
 
+    /*--Footer--*/
 .centered-bold {
     text-align: center;
     font-weight: bold;
     }
+    /*--End Footer*/
 
+    /*--Table--*/
 .expense-table{
     border: 1px solid rgb(241, 236, 236);
     border-collapse: collapse;
@@ -34,19 +48,7 @@ td, th {
 thead {
     background-color: lightblue;
     }
-.image--text-container {
-    position: relative;
-    }
-    
-.image-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    }
+    /*--End table--*/
 
     /* Nav */
 .nav-bar {
@@ -79,7 +81,6 @@ a {
     letter-spacing: 1px;
     }
 
-    /* Add styles for the navbar */
 .nav-bar {
     background-color: #333;
     color: #fff;
@@ -96,3 +97,30 @@ li:hover {
 a:hover {
     color: #fff;
     }
+    /*--End Navbar--*/
+
+    /*--Column--*/
+row {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    }
+
+.left-column {
+    background-color: #f2f2f2;
+    }
+
+.right-column {
+    background-color: #e6e6e6;
+    }
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+    }   
+    /*--Column--*/
