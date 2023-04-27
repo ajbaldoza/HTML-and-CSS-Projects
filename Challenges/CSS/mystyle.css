@@ -34,7 +34,18 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 2em;
+    }
+
+.image-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+
+.image-text p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
     }
 
     /*--Footer--*/
