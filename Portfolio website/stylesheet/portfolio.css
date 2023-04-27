@@ -7,7 +7,7 @@ body {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: "Lucida Bright", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
@@ -27,10 +27,10 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: monospace, sans-serif;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 20px; /* Adds padding to the left of the paragraph element */
     padding-right: 20px; /* Adds padding to the right of the paragraph element */
 }
@@ -67,7 +67,7 @@ img {
     filter: grayscale(75%); /* This rids our pictures of 75% of their color */
     border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
-    height: 340px; /* Sets the height of all images */
+    height: 350px; /* Sets the height of all images */
     display: block; /* By specifying block display we can ensure our images are able to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
     margin-right: auto;
@@ -121,7 +121,7 @@ footer {
     color: white; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-family: Candara, Helvetica; /* This specifies the font family for text on our navbar */
     font-size: 20px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -175,7 +175,7 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
+    background: rgba(0, 0, 0, 0.2); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
@@ -202,7 +202,7 @@ footer {
     padding: 10px;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+    background-color: #929191; /* Sets the background color of the columns with class Column_1 */
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
