@@ -2,3 +2,37 @@ html{
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
+
+/* Navigation bar */
+nav {
+  background-color: #333; /* Set background color */
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+  float: left;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  background-color: #555;
+  border: 1px solid white;
+}
+
+/* Set background color for the rest of the page */
+body {
+  background-color: #f1f1f1;
+  margin-top: 50px; /* Add margin to body to avoid overlapping with navigation bar */
+}
