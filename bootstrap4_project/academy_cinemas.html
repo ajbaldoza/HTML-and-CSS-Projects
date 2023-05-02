@@ -39,7 +39,7 @@
             <section id="about">
               <div class="jumbotron jumbotron-fluid bg-info text-center">
                   <div class="container">
-                    <h1 class="display-4 text-light ">Academy Cinemas</h1>
+                    <h1 class="display-4 text-light">Academy Cinemas</h1>
                     <p class="lead text-light">Seat back, relax, and enjoy the show...</p>
                   </div>
                 </div>
@@ -127,6 +127,13 @@
           </div>
           <!--/showtimes-->
 
+          <!--jumbotron heading-->
+          <div class="jumbotron jumbotron-fluid bg-info text-center">
+              <h1 class="display-4 text-light">MOVIE DEALS</h1>
+                 <p class="lead text-light">Check out our monthly deals..</p>
+              <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See movie deals!</button>
+          </div>
+
           <!--sign up -->
           <div class="container">
               <section id="deals">
@@ -143,8 +150,8 @@
                   </div>
 
                   <!--form modal-->
-                  <div class="modal" tabindex="-1">
-                      <div class="modal-dialog">
+                  <div class="modal fade" id="register">
+                      <div class="modal-dialog" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
                                   <h5 class="modal-title">Register to receive movie deals!</h5>
@@ -152,14 +159,28 @@
                                             <span aria-hidden="true">&times;</span>
                                           </button>
                                         </div>
-                                        <div class="modal-body">
+                                          <div class="modal-body">
+
+                                            <form>
+                                                <fieldset class="form-group">
+                                                    <label for="firstname">First Name:</label>
+                                                    <input type="text" class="form-control" id="firstname" placeholder="First Name...">       
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label for="lastname">Last Name:</label>
+                                                    <input type="text" class="form-control" id="lastname" placeholder="Last Name...">       
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label for="email">Email:</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="Email...">       
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label for="password">Password:</label>
+                                                    <input type="password" class="form-control" id="password" placeholder="Password...">       
+                                                </fieldset>
+                                            </form>
                                         
-
-
-
-
-
-                                        </div>
+                                          </div>
                                         <div class="modal-footer">
                                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                   <button type="button" class="btn btn-primary">Save changes</button>
