@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Staatliches
+Author: Brian LaRossa,Erica Carras
+Url: https://fonts.google.com/specimen/Staatliches
+
+Font: Baloo Thambi 2
+Author: Ek Type
+Url: https://fonts.google.com/specimen/Baloo+Thambi+2
+
+Font: Montserrat
+Author: Julieta Ulanovsky,Sol Matas,Juan Pablo del Peral,Jacques Le Bailly
+Url: https://fonts.google.com/specimen/Montserrat
